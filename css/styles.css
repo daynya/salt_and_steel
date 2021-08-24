@@ -7,4 +7,17 @@
 body {
     color: #333333;
     font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    background-image: url("../img/plates.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
