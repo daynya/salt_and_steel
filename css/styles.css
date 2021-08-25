@@ -15,12 +15,12 @@ body {
     font-size: 30px;
 }
 
-.nav-home:hover {
-    text-decoration: none;
-}
-
 .nav-item {
     display: inline-block;
+}
+
+.nav-item .current {
+    border-bottom: 1px solid white;
 }
 
 a {
@@ -34,6 +34,10 @@ a:visited {
 
 a:hover {
     border-bottom: 1px solid white;
+}
+
+.nav-home a:hover {
+    border-bottom: none;
 }
 
 .home {
